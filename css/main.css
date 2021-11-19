@@ -1823,7 +1823,8 @@ padding-left: 10px;
 
 
 
-.cart-container button{
+.cart-container button,
+.checkout-container button{
   background-color:#6ac1b2;
   color:#fff;
   border: none;
@@ -1879,20 +1880,24 @@ padding-left: 10px;
 }
 
  /* cart-infor-payment */
- .cart-container .ci-payment{
+.ci-payment{
   background-color:#fff;
   padding:20px;
 }
 
 
-.cart-container .ci-payment .ci-payment-detail {
+.ci-payment .ci-payment-detail {
   background-color:#e6f7ee;
+}
+
+.ci-payment .payment-select{
+  background-color:#e6f7ee;
+
 }
 
 
 .ci-payment-detail{
   padding:12px;
-  margin-bottom: 4px;
 }
 
 .ci-payment-detail .ci-p-detail-infor{
@@ -1919,6 +1924,7 @@ font-size:16px;
 }
 
 
+
 .ci-payment .btn-payment {
   display: flex;
   justify-content: flex-end;
@@ -1928,6 +1934,7 @@ font-size:16px;
 
 
 .ci-payment .btn-payment button{
+  margin-top:12px;
   background-color:#3a9e9b ;
 }
 
@@ -1935,3 +1942,84 @@ font-size:16px;
   background-color: #6ac1b2;
 }
 
+
+/* check-out */
+.checkout-container{
+  margin-bottom: 12px;
+}
+
+.checkout-container .infor-customer{
+background-color:#fff;
+padding:20px;
+
+}
+
+.checkout-container .infor-customer h2{
+  padding-bottom: 10px;
+}
+
+.form-container .row .col input::placeholder{
+  font-size: 14px;
+}
+
+
+.checkout-container .ci-payment{
+  background-color: #fff;
+  padding:20px;
+}
+
+
+
+
+.ci-payment .payment-select{
+  margin-top: 8px;
+  padding:12px;
+}
+
+.ci-payment .payment-select h1{
+  font-size:16px;
+  padding: 12px;
+}
+
+.payment-method .form-check {
+  font-size:14px;
+  display: flex;
+  align-items: center
+}
+.form-check input {
+  margin-right: 10px;
+}
+
+.form-check label {
+  padding-top: 1px;
+}
+
+
+/* register-success */
+.register-success{
+  padding-bottom: 20px;
+
+}
+
+.register-success .r-s-content{
+  background-color: #fff;
+  width:50%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto ;
+  text-align: center;
+  justify-content:center;
+}
+
+
+
+.register-success .r-s-content a {
+  font-size: 12px;
+}
+
+
+
+.register-success .r-s-content a:hover{
+  color:#71d3cc;
+}

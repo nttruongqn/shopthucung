@@ -30,9 +30,12 @@ html {
 }
 
 
-.app-cart {
+.app-cart,
+.app-form {
   background: #e6f7ee;
 }
+
+
 
 .app{
 background: #fff;
@@ -73,7 +76,7 @@ a.bi-cat{
 a:hover,
 a:active,
 a:focus {
-  color: #353535;
+  color:#71d3cc;
   outline: none;
   text-decoration: none;
 }
