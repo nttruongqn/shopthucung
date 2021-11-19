@@ -1,0 +1,295 @@
+<meta charset="utf-8">
+<link rel="shortcut icon" href="img/favicon.ico">
+<title>Giỏ hàng</title>
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="eCommerce HTML Template Free Download" name="keywords">
+<meta content="eCommerce HTML Template Free Download" name="description">
+
+<!-- Favicon -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- CSS Libraries -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="lib/slick/slick.css" rel="stylesheet">
+<link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+
+<!-- Template Stylesheet -->
+<link href="css/base.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="app-cart">
+   <div class="header">
+       <div class="grid">
+           <div class="header-top">
+               <div class="header__logo">
+                   <a href="/trang-chu.html" class="header__logo-link">
+                    <img src="./img/logo.png" alt="logo" class="header__logo-img">
+                   </a>
+                 
+               </div>
+               <div class="header__search">
+                  
+                       <input type="text" placeholder="Nhập sản phẩm để tìm kiếm" class="header__search-input"/>
+                       <button class="header__search-btn">
+                        <i class="header__search-btn-icon fas fa-search"></i>
+                       </button>
+                   
+               </div>
+               <ul class="header__navbar-list">
+                   <li class="header__navbar-item">
+                       <a href="/" class="header__navbar-link">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>   
+                        Giỏ hàng</a>
+                   </li>
+                   <li class="header__navbar-item ">
+                    <a href="/dang-ky.html" class="header__navbar-link ">Đăng ký</a>
+                </li>
+                <li class="header__navbar-item header__navbar-item--separate">
+                    <a href="dang-nhap" class="header__navbar-link">Đăng Nhập</a>
+                </li>
+
+               </ul>
+           </div>
+       </div>
+   </div>
+
+   <!-- menu -->
+   <div class="menu">
+               <div class="grid">
+                <ul class="menu-list">
+                    <li class="menu-item ">
+                        <a href="" class="menu-item-link active ">TRANG CHỦ</a>
+                    </li>
+                    <li class="menu-item">
+                     <a href="" class="menu-item-link">GIỚI THIỆU</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">TIN TỨC</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">DỊCH VỤ</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">LIÊN HỆ</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">BLOG CHÓ MÈO</a>
+                 </li>
+                 
+                </ul>
+
+               </div>
+              
+          
+
+   </div>
+
+   
+   <!-- Breadcrumb Start -->
+   <nav aria-label="breadcrumb">
+       <div class="grid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/trang-chu.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Giỏ hàng</li>
+          </ol>
+       </div>
+  </nav>
+  <!--  -->
+
+  <!-- main-cart -->
+  <div class="cart-container">
+    <div class="grid">
+        <div class="grid__row">
+            <div class="grid__column-7-12">
+                <div class="cart-infor">
+                    <div class="cart-infor-table">
+                        <table>
+                            <tr>
+                              <th>Tên sản phẩm</th>
+                              <th>Giá</th>
+                              <th>Số lượng</th>
+                              <th>Tổng</th>
+                              <th>Xóa</th>
+                            </tr>
+                            <tr>
+                              <td>
+                                  <a href="" class="img-pcart-link">
+                                    <img src="/image/dog-product/dog-thucankho.jpg" alt="" class="img-pcart">
+                                    <p>Thức ăn khô cho chó</p>
+                                  </a>
+                                 
+                              </td>
+                              <td><span class="price-cart">90.000 đ</span>  </td>
+                              <td>
+                                <div class="pcart-amount">
+                                    <div class="is-amount">
+                                        <span class="num">1</span>
+                                        <i class="fas fa-angle-down"></i>
+                
+                                        <ul class="num-list">
+                                            <li class="num-item">
+                                                <span>1</span>
+                                            </li>
+                                            <li class="num-item">
+                                                <span>2</span>
+                                            </li>
+                                            <li class="num-item">
+                                                <span>3</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </td>
+                              <td><span class="totalprice-cart">90.000 đ</span></td>
+                              <td><button><i class="fa fa-trash"></i></button></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="" class="img-pcart-link">
+                                      <img src="/image/dog-product/dog-kinhthoitrang.jpg" alt="" class="img-pcart">
+                                      <p>Kính mát cho chó đến nhập khẩu bên nước ngoài giá uy tín</p>
+                                    </a>
+                                   
+                                </td>
+                                <td><span class="price-cart">90.000 đ</span>  </td>
+                                <td>
+                                  <div class="pcart-amount">
+                                      <div class="is-amount">
+                                          <span class="num">1</span>
+                                          <i class="fas fa-angle-down"></i>
+                  
+                                          <ul class="num-list">
+                                              <li class="num-item">
+                                                  <span>1</span>
+                                              </li>
+                                              <li class="num-item">
+                                                  <span>2</span>
+                                              </li>
+                                              <li class="num-item">
+                                                  <span>3</span>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                                </td>
+                                <td><span class="totalprice-cart">90.000 đ</span></td>
+                                <td><button><i class="fa fa-trash"></i></button></td>
+                              </tr>
+                          
+                          </table>
+                    </div>
+                   
+
+                </div>
+
+            </div>
+            <div class="grid__column-3-12">
+                <div class="ci-payment">
+                    <div class="ci-payment-detail">
+                        <div class="ci-p-detail-infor">
+                            <h1>Thống kê giỏ hàng</h1>
+                            <div class="detail-infor-total">
+                                <span>Tổng tiền sản phẩm</span>
+                                <span>90.000đ</span>
+                            </div>
+                            
+                        </div>
+                        <span>
+                            <div class="ci-p-detail-total">
+                               <span> <b>Tổng cộng : </b></span>
+                               <span>90.000đ</span>
+                            </div>
+                            
+                       
+                    </div>
+                    <div class="btn-payment">
+                        <a href="" class=""> <button class="btn-payment-link">
+                            <span>Thanh Toán</span>
+                        </button> </a>
+                    </div>
+                 
+            
+                </div>
+                
+            </div>
+        </div>
+
+
+    </div>
+  </div>
+
+
+
+
+   
+
+   <footer class="footer">
+    <div class="grid">
+        <div class="grid__row">
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link">Trung tâm trợ giúp</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link">Hướng dẫn mua hàng</a></li>
+                 
+                       
+                       
+                </ul>
+            </div>
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Giới thiệu</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link">Giới thiệu</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link">Tuyển dụng</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link">Điều khoản</a></li>
+                       
+                       
+                </ul>
+            </div>
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Danh mục</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link">Chó cảnh</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link">Mèo cảnh</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link">Hamster</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link">Phụ kiện vật nuôi</a></li>
+                       
+                       
+                       
+                </ul>
+            </div>
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Theo dõi</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link"><i class="footer-item__icon fab fa-facebook"></i> Facebook</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link"><i class="footer-item__icon fab fa-instagram"></i> Instagram</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link"><i class="footer-item__icon fab fa-linkedin"></i> LinkedIn</a></li>
+                       
+                       
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="footer__bottom">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="footer__text">2021 - Web được thiết kế bởi Nguyễn Thanh Trường</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+

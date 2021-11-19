@@ -1,0 +1,435 @@
+/* khai bao bien */
+:root {
+  --primary-color1: #007f7f;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #333;
+  --primary-color: #6ac1b2;
+
+  --header-height: 90px;
+  --navbar-height: 34px;
+  --header-width-search-height: calc(
+    var(--header-height) - var(--navbar-height)
+  );
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+
+.app-homepage {
+  background: #f5f5f5;
+}
+
+
+.app-cart {
+  background: #e6f7ee;
+}
+
+.app{
+background: #fff;
+}
+
+h1 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+}
+
+.btn {
+  color: #6ac1b2;
+  background: #ffffff;
+  border: 1px solid 007f7f;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: #ffffff;
+  background: #007f7f;
+  box-shadow: none;
+}
+
+a {
+  color: #6ac1b2;
+}
+
+a.bi-cat{
+  color: #6ac1b2;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #353535;
+  outline: none;
+  text-decoration: none;
+}
+
+/**********************************/
+/******* Normal Slider CSS ********/
+/**********************************/
+.normal-slider .slick-prev,
+.normal-slider .slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  background: rgba(0, 127, 127, 0.5);
+  border-radius: 4px;
+}
+
+.normal-slider .slick-prev {
+  left: 55px;
+}
+.normal-slider .slick-next {
+  /* left: 540px; */
+  right: 55px;
+}
+
+.normal-slider.slick-slider:hover .slick-prev {
+  left: 15px;
+  opacity: 1;
+}
+
+.normal-slider.slick-slider:hover .slick-next {
+  right: 15px;
+  opacity: 1;
+}
+
+.normal-slider .slick-prev:hover,
+.normal-slider .slick-prev:focus,
+.normal-slider .slick-next:hover,
+.normal-slider .slick-next:focus {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.normal-slider .slick-prev:hover::before,
+.normal-slider .slick-prev:focus::before,
+.normal-slider .slick-next:hover::before,
+.normal-slider .slick-next:focus::before {
+  color: #6ac1b2;
+}
+
+.normal-slider .slick-prev::before,
+.normal-slider .slick-next::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.normal-slider .slick-prev::before {
+  content: "\f104";
+}
+
+.normal-slider .slick-next::before {
+  content: "\f105";
+}
+
+.normal-slider .slick-dots {
+  bottom: 15px;
+}
+
+.normal-slider .slick-dots li button:before {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.normal-slider .slick-dots li.slick-active button:before {
+  color: #6ac1b2;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+/* Responsive */
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5px;
+  margin-right: -5px;
+  /* border: 1px solid black; */
+}
+
+/* Test */
+.grid__column-2 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 16.6667%;
+  /* border: 1px solid black; */
+}
+
+
+.grid__column-3 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 25%;
+  /* border: 1px solid black; */
+}
+
+
+.grid__column-4 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 33.333%;
+  /* border: 1px solid black; */
+}
+
+.grid__column-6 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+
+.grid__column-9 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 75%;
+  /* border: 1px solid black; */
+}
+
+.grid__column-10 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 83.6667%;
+  border: 1px solid black;
+}
+
+
+
+/* grid-column-add */
+.grid__column-2-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 20%;
+}
+
+.grid__column-2_5-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 25%;
+}
+
+
+
+
+.grid__column-3-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 30%;
+}
+
+.grid__column-4-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 40%;
+}
+
+
+.grid__column-4_5-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 45%;
+}
+.grid__column-5-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 50%;
+}
+
+.grid__column-2-b {
+  /* padding-left: 1px;
+  padding-right: 1px; */
+  width: 16.6667%;
+  /* border: 1px solid black; */
+}
+
+.grid__column-6-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 60%;
+}
+
+
+.grid__column-7-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 70%;
+}
+
+.grid__column-7_5-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 75%;
+}
+
+
+/* 
+.grid__column-2-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 20%;
+  /* border: 1px solid black; */
+/* } */ 
+
+
+.grid__column-4-9 {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 25%;
+  /* border: 1px solid black; */
+}
+
+
+/* Animation */
+@keyframes headerNotifyGrowth {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes growth {
+  from {
+    opacity: scale(var(--growth-from));
+  }
+  to {
+    opacity: scale(var(--growth-to));
+  }
+}
+
+/* form */
+
+/* Login-form */
+/**********************************/
+/****** Register & Login CSS ******/
+/**********************************/
+.login {
+  position: relative;
+  padding-top: 30px;
+}
+
+.login .login-form,
+.login .register-form {
+  padding: 30px;
+  background: #ffffff;
+  margin-bottom: 30px;
+}
+
+/**********************************/
+/********* Form Input CSS *********/
+/**********************************/
+
+.form-control,
+.custom-select {
+  width: 100%;
+  height: 35px;
+  padding: 0 15px;
+  color: #999999;
+  border: 1px solid #dddddd;
+  margin-bottom: 15px;
+}
+
+.row label {
+  font-size: 12px;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  box-shadow: none;
+  border-color: #6ac1b2;
+}
+
+.custom-radio,
+.custom-checkbox {
+  margin-bottom: 15px;
+}
+
+.custom-radio .custom-control-label::before,
+.custom-checkbox .custom-control-label::before {
+  background: #dddddd;
+  border-color: #dddddd;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  color: #ffffff;
+  background: #6ac1b2;
+  border-color: #6ac1b2;
+  box-shadow: none;
+}
+
+.btn {
+  color: #6ac1b2;
+  background: #ffffff;
+  border: 1px solid #6ac1b2;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: #ffffff;
+  background: #6ac1b2;
+  box-shadow: none;
+}
+
+/* breadcrumb */
+
+.breadcrumb {
+  position: relative;
+  width: 100%;
+  background: transparent;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-left: -12px;
+}
+
+
+/* table css */
+table, th, td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding:10px;
+}
+
+
+

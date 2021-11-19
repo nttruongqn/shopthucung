@@ -1,0 +1,221 @@
+<meta charset="utf-8">
+<link rel="shortcut icon" href="img/favicon.ico">
+<title>Fullface Store</title>
+
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="eCommerce HTML Template Free Download" name="keywords">
+<meta content="eCommerce HTML Template Free Download" name="description">
+
+<!-- Favicon -->
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!-- CSS Libraries -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link href="lib/slick/slick.css" rel="stylesheet">
+<link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+
+<!-- Template Stylesheet -->
+<link href="css/base.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="app">
+   <div class="header">
+       <div class="grid">
+           <div class="header-top">
+               <div class="header__logo">
+                   <a href="/trang-chu.html" class="header__logo-link">
+                    <img src="./img/logo.png" alt="logo" class="header__logo-img">
+                   </a>
+                 
+               </div>
+               <div class="header__search">
+                  
+                       <input type="text" placeholder="Nhập sản phẩm để tìm kiếm" class="header__search-input"/>
+                       <button class="header__search-btn">
+                        <i class="header__search-btn-icon fas fa-search"></i>
+                       </button>
+                   
+               </div>
+               <ul class="header__navbar-list">
+                   <li class="header__navbar-item">
+                       <a href="/" class="header__navbar-link">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>   
+                        Giỏ hàng</a>
+                   </li>
+                   <li class="header__navbar-item ">
+                    <a href="/dang-ky.html" class="header__navbar-link ">Đăng ký</a>
+                </li>
+                <li class="header__navbar-item header__navbar-item--separate">
+                    <a href="/dang-nhap.html" class="header__navbar-link">Đăng Nhập</a>
+                </li>
+
+               </ul>
+           </div>
+       </div>
+   </div>
+
+   <!-- menu -->
+   <div class="menu">
+               <div class="grid">
+                <ul class="menu-list">
+                    <li class="menu-item ">
+                        <a href="" class="menu-item-link active ">TRANG CHỦ</a>
+                    </li>
+                    <li class="menu-item">
+                     <a href="" class="menu-item-link">GIỚI THIỆU</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">TIN TỨC</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">DỊCH VỤ</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">LIÊN HỆ</a>
+                 </li>
+                 <li class="menu-item">
+                     <a href="" class="menu-item-link">BLOG CHÓ MÈO</a>
+                 </li>
+                 
+                </ul>
+
+               </div>
+              
+          
+
+   </div>
+
+   <!-- Breadcrumb Start -->
+   <nav aria-label="breadcrumb">
+       <div class="grid">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/trang-chu.html">Trang chủ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Đăng ký</li>
+          </ol>
+       </div>
+  </nav>
+  <!--  -->
+
+
+   <!-- Login Start -->
+   <div class="login">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="register-form">
+                    <form action="/users/luu" method="post">
+                        <div class="row">
+                            <legend class="text-center">ĐĂNG KÝ</legend>
+                            <div class="col-md-6">
+                                <label for="ho">Họ</label>
+                                <input id="ho" name="ho" class="form-control" type="text" placeholder="Họ">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="ten">Tên</label>
+                                <input id="ten" name="ten" class="form-control" type="text" placeholder="Tên">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="username">Tên Đăng Nhập</label>
+                                <input id="username" name="username" class="form-control" type="text" placeholder="Username">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">E-mail</label>
+                                <input id="email" name="email" class="form-control" type="text" placeholder="E-mail">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone">Số Điện Thoại</label>
+                                <input id="phone" name="phone" class="form-control" type="text" placeholder="0123456789">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="password">Mật Khẩu</label>
+                                <input id="password" name="password" class="form-control" type="password" placeholder="Nhập mật khẩu của bạn">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="retype">Nhập Lại Mật Khẩu</label>
+                                <input id="retype" name="retypePassword" class="form-control" type="password" placeholder="Nhập lại mật khẩu">
+                            </div>
+                            <div class="col-md-12">
+                                <label>Địa chỉ</label>
+                                <input name="address" class="form-control" type="text" placeholder="Địa chỉ">
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-register">Đăng ký</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Login End -->
+
+   <footer class="footer">
+    <div class="grid">
+        <div class="grid__row">
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link">Trung tâm trợ giúp</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link">Hướng dẫn mua hàng</a></li>
+                 
+                       
+                       
+                </ul>
+            </div>
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Giới thiệu</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link">Giới thiệu</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link">Tuyển dụng</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link">Điều khoản</a></li>
+                       
+                       
+                </ul>
+            </div>
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Danh mục</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link">Chó cảnh</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link">Mèo cảnh</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link">Hamster</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link">Phụ kiện vật nuôi</a></li>
+                       
+                       
+                       
+                </ul>
+            </div>
+            <div class="grid__column-3">
+                <h3 class="footer__heading">Theo dõi</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"> <a href="" class="footer-item__link"><i class="footer-item__icon fab fa-facebook"></i> Facebook</a></li>
+                    <li class="footer-item"> <a href="" class="footer-item__link"><i class="footer-item__icon fab fa-instagram"></i> Instagram</a></li>
+                    <li class="footer-item">   <a href="" class="footer-item__link"><i class="footer-item__icon fab fa-linkedin"></i> LinkedIn</a></li>
+                       
+                       
+                </ul>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="footer__bottom">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="footer__text">2021 - Web được thiết kế bởi Nguyễn Thanh Trường</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
