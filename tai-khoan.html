@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <link rel="shortcut icon" href="img/favicon.ico">
-<title>Đăng ký tài khoản thành công</title>
+<title>Tài khoản</title>
 
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta content="eCommerce HTML Template Free Download" name="keywords">
@@ -47,14 +47,14 @@
                     </div>
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item">
-                            <a href="/" class="header__navbar-link">
+                            <a href="/gio-hang.html" class="header__navbar-link">
                                 <i class="header__cart-icon fas fa-shopping-cart"></i> Giỏ hàng</a>
                         </li>
                         <li class="header__navbar-item ">
                             <a href="/dang-ky.html" class="header__navbar-link ">Đăng ký</a>
                         </li>
                         <li class="header__navbar-item header__navbar-item--separate">
-                            <a href="dang-nhap" class="header__navbar-link">Đăng Nhập</a>
+                            <a href="/dang-nhap.html" class="header__navbar-link">Đăng Nhập</a>
                         </li>
 
                     </ul>
@@ -67,22 +67,22 @@
             <div class="grid">
                 <ul class="menu-list">
                     <li class="menu-item ">
-                        <a href="" class="menu-item-link active ">TRANG CHỦ</a>
+                        <a href="" class="menu-item-link">TRANG CHỦ</a>
                     </li>
                     <li class="menu-item">
-                        <a href="" class="menu-item-link">GIỚI THIỆU</a>
+                        <a href="/san-pham-cun-theo-the-loai.html" class="menu-item-link">SHOP CÚN</a>
                     </li>
                     <li class="menu-item">
-                        <a href="" class="menu-item-link">TIN TỨC</a>
+                        <a href="/san-pham-meo-theo-the-loai.html" class="menu-item-link">SHOP MÈO</a>
                     </li>
                     <li class="menu-item">
-                        <a href="" class="menu-item-link">DỊCH VỤ</a>
+                        <a href="/dang-cap-nhat.html" class="menu-item-link">DỊCH VỤ</a>
                     </li>
                     <li class="menu-item">
-                        <a href="" class="menu-item-link">LIÊN HỆ</a>
+                        <a href="/dang-cap-nhat.html" class="menu-item-link">LIÊN HỆ</a>
                     </li>
                     <li class="menu-item">
-                        <a href="" class="menu-item-link">BLOG CHÓ MÈO</a>
+                        <a href="/dang-cap-nhat.html" class="menu-item-link">BLOG CHÓ MÈO</a>
                     </li>
 
                 </ul>
@@ -118,13 +118,14 @@
                             </li>
                             <li class="ma-item">
 
-                                <a href="" class="ma-item-link">
+                                <a href="#cart-infor-account" class="ma-item-link
+                                 ci-account">
                                     <div class="ma-item-icon">
                                         <i class="fa fa-shopping-bag"></i>
                                     </div>
                                     <span>Đơn hàng</span> </a>
                             </li>
-                            <li class="ma-item">
+                            <!-- <li class="ma-item">
 
                                 <a href="" class="ma-item-link">
                                     <div class="ma-item-icon">
@@ -132,10 +133,10 @@
                                     </div>
 
                                     <span>Phương thức thanh toán</span></a>
-                            </li>
+                            </li> -->
                             <li class="ma-item">
 
-                                <a href="" class="ma-item-link">
+                                <a href="#address-account" class="ma-item-link address-account">
                                     <div class="ma-item-icon">
                                         <i class="fa fa-map-marker-alt"></i>
                                     </div>
@@ -143,7 +144,7 @@
                             </li>
                             <li class="ma-item detail-account">
 
-                                <a href="#mng-account" class="ma-item-link" >
+                                <a href="#mng-account" class="ma-item-link detail-account" >
                                     <div class="ma-item-icon">
                                         <i class="fa fa-user"></i>
                                     </div>
@@ -162,11 +163,115 @@
                     </div>
                     <div class="grid__column-8-12">
                         <div class="my-account-main">
-                            <div class="ma-hello-account">
+                            <div class="ma ma-hello-account">
                                 <p>Chào Thanh Trường</p>
                                 <p>Đây là trang quản lý tài khoản của bạn</p>
                             </div>
-                            <div class="ma-mng-account hidden" id ="mng-account">
+
+                           <div class="ma ma-cart-infor hidden" id="cart-infor-account">
+                            <h4>Thông tin đơn hàng</h4>
+                            <div class="cart-infor">
+                                <div class="cart-infor-table">
+                                    <table>
+                                        <tr>
+                                          <th>Tên sản phẩm</th>
+                                          <th>Giá</th>
+                                          <th>Số lượng</th>
+                                          <th>Tổng</th>
+                                          <th>Xóa</th>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                              <a href="" class="img-pcart-link">
+                                                <img src="/image/dog-product/dog-thucankho.jpg" alt="" class="img-pcart">
+                                                <p>Thức ăn khô cho chó</p>
+                                              </a>
+                                             
+                                          </td>
+                                          <td><span class="price-cart">90.000 đ</span>  </td>
+                                          <td>
+                                            <div class="pcart-amount">
+                                                <div class="is-amount">
+                                                    <span class="num">1</span>
+                                                    <i class="fas fa-angle-down"></i>
+                            
+                                                    <ul class="num-list">
+                                                        <li class="num-item">
+                                                            <span>1</span>
+                                                        </li>
+                                                        <li class="num-item">
+                                                            <span>2</span>
+                                                        </li>
+                                                        <li class="num-item">
+                                                            <span>3</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                          </td>
+                                          <td><span class="totalprice-cart">90.000 đ</span></td>
+                                          <td><button><i class="fa fa-trash"></i></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="" class="img-pcart-link">
+                                                  <img src="/image/dog-product/dog-kinhthoitrang.jpg" alt="" class="img-pcart">
+                                                  <p>Kính mát cho chó đến nhập khẩu bên nước ngoài giá uy tín</p>
+                                                </a>
+                                               
+                                            </td>
+                                            <td><span class="price-cart">90.000 đ</span>  </td>
+                                            <td>
+                                              <div class="pcart-amount">
+                                                  <div class="is-amount">
+                                                      <span class="num">1</span>
+                                                      <i class="fas fa-angle-down"></i>
+                              
+                                                      <ul class="num-list">
+                                                          <li class="num-item">
+                                                              <span>1</span>
+                                                          </li>
+                                                          <li class="num-item">
+                                                              <span>2</span>
+                                                          </li>
+                                                          <li class="num-item">
+                                                              <span>3</span>
+                                                          </li>
+                                                      </ul>
+                                                  </div>
+                                              </div>
+                                            </td>
+                                            <td><span class="totalprice-cart">90.000 đ</span></td>
+                                            <td><button><i class="fa fa-trash"></i></button></td>
+                                          </tr>
+                                      
+                                      </table>
+                                </div>
+                               
+            
+                            </div>
+                           </div>
+
+                            <div class="ma ma-address-account hidden" id="address-account">
+                                <h4>Địa chỉ nhận hàng</h4>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" placeholder="Nhập địa chỉ nhận hàng">
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn">Thêm địa chỉ nhận hàng</button>
+                                    </div>
+
+                                    <div class="col-12 radio-address ">
+                                        <input type="radio" name="sort"> <span>Đông Yên,Duy Trinh,Duy Xuyên,Quảng Nam</span>  
+                                    </div>
+                                    </div>
+                                 
+                                   
+
+
+                            </div>
+                            <div class="ma ma-mng-account hidden" id ="mng-account">
                             <h4>Chi tiết tài khoản</h4>
                             <div class="form-detail-acount ">
                                 <div class="row">
