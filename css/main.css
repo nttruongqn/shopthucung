@@ -1453,7 +1453,7 @@
     position: relative;
 }
 
-.product-item-detail .product-i-d .is-amout .num-list {
+.product-item-detail .product-i-d .num-list {
     display: none;
     position: absolute;
     border: 1px solid #ccc;
@@ -1479,7 +1479,7 @@
     background-color: #71d3cc;
 }
 
-.product-item-detail .product-i-d.amount:hover .is-amout .num-list {
+.product-item-detail .product-i-d.amount:hover .num-list {
     display: block;
 }
 
